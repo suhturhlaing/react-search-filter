@@ -1,0 +1,44 @@
+.create-form{
+    display: flex;
+}
+
+.left{
+    flex: 1;
+}
+
+.center{
+    flex: 2;
+    /* text-align: center; */
+    margin-top: 50px;
+}
+
+.right{
+    flex: 1;
+}
+label{
+    margin-right: 50px;
+}
+.field{
+    width : 50%;
+}
+.button-group{
+    text-align: center;
+    /* justify-self: center; */
+    margin-left: 90px;
+    display: flex;
+    gap  : 10px;
+}
+
+.button{
+    color: #fff;
+}
+.button-cancel {
+    padding : 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-cancel:hover{
+    background-color: rgb(52, 76, 213);
+}
+
